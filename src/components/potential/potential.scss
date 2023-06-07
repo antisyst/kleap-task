@@ -1,0 +1,100 @@
+.potensial {
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    flex-wrap: wrap;
+
+    svg {
+        font-size: 100px;
+        height: 90px;
+        color: var(--var-color-main);
+        margin-right: 25px;
+    }
+
+    .item {
+        display: flex;
+        padding: 10px 23px;
+        border-radius: 9px;
+        flex-direction: row;
+        align-items: center;
+        width: 560px;
+        margin: 7px;
+        transition: all 0.3s ease-out;
+        height: 175px;
+        justify-content: center;
+        text-align: left;
+        border: 3px solid var(--var-color-main);
+        font-family: 'General Sans', sans-serif;
+
+        p {
+            text-align: left;
+            font-size: inherit;
+        }
+
+        &:nth-child(2) {
+            background: var(--var-color-main);
+            color: var(--var-color-white);
+            svg {
+                color: var(--var-color-white);
+            }
+        }
+        &:nth-child(3) {
+            background: var(--var-color-main);
+            color: var(--var-color-white);
+            svg {
+                color: var(--var-color-white);
+            }
+        }
+        &:nth-child(6) {
+            background: var(--var-color-main);
+            color: var(--var-color-white);
+            svg {
+                color: var(--var-color-white);
+            }
+        }
+        &:nth-child(7) {
+            background: var(--var-color-main);
+            color: var(--var-color-white);
+            svg {
+                color: var(--var-color-white);
+            }
+        }
+        
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            justify-content: center;
+            font-family: 'General Sans', sans-serif;
+
+
+            h2 {
+                font-weight: bold;
+            }
+        }
+    }
+
+.first-content {
+    font-family: 'General Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 5%;
+    font-size: calc(10px + 4vmin);
+
+    span {
+        color: var(--var-color-main);
+    }
+}

@@ -1,0 +1,61 @@
+
+footer {
+    display: flex;
+    padding: 30px 7%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .icon-item svg {
+        width: 200px;
+        height: 75px;
+    }
+
+    .fot_item {
+        width: 24%;
+        display: flex;
+        margin: 6vh 6px;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: 'General Sans', sans-serif;
+        justify-content: center;
+
+        h2 {
+            font-family: 'General Sans', sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            color: var(--var-color-main);
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--var-color-black);
+            text-decoration: none;
+            margin: 5px;
+            font-size: 19px;
+            transition: all 0.3s ease-out;
+
+            &:hover {
+                color: var(--var-color-main);
+            }
+        }
+        .socials {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+
+            svg {
+                margin: 5px 13px;
+                width: 30px;
+                color: var(--var-color-black);
+                transition: all 0.3s ease-out;
+
+                &:hover {
+                    color: var(--var-color-main);
+                }
+            }
+        }
+
+    }
+}

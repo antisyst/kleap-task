@@ -1,0 +1,93 @@
+.section-3 {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 6%;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-family: 'General Sans', sans-serif;
+        font-size: calc(10px + 1.1vmin);
+        text-align: center;
+        padding: 0 12%;
+        margin-top: 0.6vh;
+    
+        span {
+            font-weight: bold;
+        }
+    }
+
+    a {
+        margin-top: 3vh;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease-out;
+        justify-content: center;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--var-color-white);
+        padding: 17px 35px;
+        border-radius: 40px;
+        width: 370px;
+        font-size: calc(10px + 1.6vmin);
+        border: 3px solid var(--var-color-main);
+        background: var(--var-color-main);
+
+        svg {
+            vertical-align: middle;
+            margin-left: 6px;
+            font-size: 40px;
+            margin-top: 3px;
+            animation: SVGAnim 8s ease 0s infinite normal forwards;
+
+            @keyframes SVGAnim {
+                0%,
+                100% {
+                    transform: translateX(0);
+                }
+            
+                10%,
+                30%,
+                50%,
+                70% {
+                    transform: translateX(-7px);
+                }
+            
+                20%,
+                40%,
+                60% {
+                    transform: translateX(7px);
+                }
+            
+                80% {
+                    transform: translateX(5px);
+                }
+            
+                90% {
+                    transform: translateX(-5px);
+                }
+            }
+        }
+        &:hover {
+            background: var(--var-color-white);
+            color: var(--var-color-main);
+            transform: scale(1.03);
+        } 
+    }
+    .first-content {
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        color: var(--var-color-black);
+        text-align: center;
+        font-size: calc(10px + 4.5vmin);
+        padding: 0 10%;
+    
+        span {
+            color: var(--var-color-main);
+        }
+    }
+    
+}
