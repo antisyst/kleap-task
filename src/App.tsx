@@ -5,7 +5,6 @@ import Potential from "./components/potential/potential";
 import Product from "./components/products/products";
 import Section2 from "./components/section-2/section2";
 import Section3 from "./components/section-3/section3";
-import { gsap } from "gsap";
 import Section4 from "./components/section-4/section4";
 import { useEffect, useRef } from "react";
 import Footer from "./components/footer/footer";
